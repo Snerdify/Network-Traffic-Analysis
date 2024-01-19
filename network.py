@@ -28,3 +28,4 @@ df['timestamp'] = pd.to_datetime(df['timestamp'])
 df['hour'] = df['timestamp'].dt.hour
 df['day'] = df['timestamp'].dt.day
 df['month'] = df['timestamp'].dt.month
+
