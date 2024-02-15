@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <h1>Network Traffic Analysis</h1>
-      <div>
+      <div> 
         <label>Feature 1:</label>
         <input type="text" onChange={(e) => setFeatures({ ...features, feature1: e.target.value })} />
       </div>
